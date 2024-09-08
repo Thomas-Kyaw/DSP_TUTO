@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Test_SFML_OOP.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Test_SFML_OOP.cpp",
+  "output": "CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.o"
+},
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/CircleShape.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/CircleShape.cpp",
+  "output": "CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o"
+},
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/RectangleShape.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/RectangleShape.cpp",
+  "output": "CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o"
+},
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/test1.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/test1.cpp",
+  "output": "CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o"
+},
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Tuto1.dir/src/tuto1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto1.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto1.cpp",
+  "output": "CMakeFiles/Tuto1.dir/src/tuto1.cpp.o"
+}
+]

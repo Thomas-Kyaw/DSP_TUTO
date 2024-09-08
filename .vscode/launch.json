@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Debug TutorialSessions",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/TutorialSessions",  // Correct path to your executable
+      "args": [],
+      "cwd": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial",
+    },
+    {
+      "name": "(lldb) Debug TutorialSessionTest1",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/TutorialSessionTest1",  // Correct path to your executable
+      "args": [],
+      "cwd": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial",
+    },
+    {
+      "name": "(lldb) Debug Tuto1",
+      "type": "lldb",
+      "request": "launch",
+      "program": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/Tuto1",  // Correct path to your executable
+      "args": [],
+      "cwd": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial",
+    }
+  ]
+}
