@@ -40,7 +40,7 @@ void Entity::Attack(Entity& entity) {
 std::string Entity::GetMessage() const { return fMessage; }
 void Entity::SetMessage(const std::string& message) { fMessage = message; }
 
-// PrintStat method to return all field information as a string
+// Print the entity's statistics
 std::string Entity::PrintStat() const {
     std::ostringstream oss;
     oss << "ID: " << fID << "\n"
@@ -52,25 +52,41 @@ std::string Entity::PrintStat() const {
     return oss.str();
 }
 
-// Overloading the << operator for printing the entity's stats
+// Overload the << operator to print the entity's stats
 std::ostream& operator<<(std::ostream& os, const Entity& entity) {
     os << entity.PrintStat();
     return os;
 }
 
-// Overloading the >> operator for inputting values into the entity
+// Overload the >> operator to parse commands and apply the appropriate changes
 std::istream& operator>>(std::istream& is, Entity& entity) {
-    std::cout << "Enter ID: ";
-    is >> entity.fID;
-    std::cout << "Enter Max HP: ";
-    is >> entity.fMaxHP;
-    std::cout << "Enter Current HP: ";
-    is >> entity.fCurrentHP;
-    std::cout << "Enter Attack: ";
-    is >> entity.fAttack;
-    std::cout << "Enter Message: ";
-    is.ignore();  // To ignore the newline character after reading int
-    std::getline(is, entity.fMessage);  // Read the whole line for the message
+    std::string command;
+    is >> command;
+
+    if (command == "Damage") {
+        int value;
+        is >> value;
+        entity.fCurrentHP -= value;
+        if (entity.fCurrentHP < 0) entity.fCurrentHP = 0;
+        entity.fMessage = "Damage " + std::to_string(value);
+    } 
+    else if (command == "Heal") {
+        int value;
+        is >> value;
+        entity.fCurrentHP += value;
+        if (entity.fCurrentHP > entity.fMaxHP) entity.fCurrentHP = entity.fMaxHP;
+        entity.fMessage = "Heal " + std::to_string(value);
+    } 
+    else if (command == "Move") {
+        int xOffset, yOffset;
+        is >> xOffset >> yOffset;
+        entity.fPosition.move(xOffset, yOffset);
+        entity.fMessage = "Move " + std::to_string(xOffset) + " " + std::to_string(yOffset);
+    } 
+    else {
+        std::cerr << "Unknown command: " << command << std::endl;
+    }
+
     return is;
 }
 

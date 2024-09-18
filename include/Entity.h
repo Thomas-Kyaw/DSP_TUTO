@@ -12,7 +12,7 @@ protected:
     int fMaxHP;          // Maximum health points
     int fCurrentHP;      // Current health points
     int fAttack;         // Attack damage
-    std::string fMessage;  // New field to store the last message
+    std::string fMessage;  // Field to store the last command message
 
 public:
     // Constructors
@@ -42,10 +42,10 @@ public:
     // New PrintStat function
     std::string PrintStat() const;
 
-    // Overloading the << operator (friend function)
+    // Overloading the << operator (for printing)
     friend std::ostream& operator<<(std::ostream& os, const Entity& entity);
 
-    // Overloading the >> operator (friend function)
+    // Overloading the >> operator (for receiving commands and applying changes)
     friend std::istream& operator>>(std::istream& is, Entity& entity);
 
     // Destructor
