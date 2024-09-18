@@ -92,6 +92,7 @@ TutorialSessionTest1_EXTERNAL_OBJECTS =
 
 TutorialSessionTest1: CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o
 TutorialSessionTest1: CMakeFiles/TutorialSessionTest1.dir/build.make
+TutorialSessionTest1: /opt/homebrew/Cellar/raylib/5.0/lib/libraylib.dylib
 TutorialSessionTest1: CMakeFiles/TutorialSessionTest1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TutorialSessionTest1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TutorialSessionTest1.dir/link.txt --verbose=$(VERBOSE)

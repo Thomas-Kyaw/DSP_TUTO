@@ -92,6 +92,7 @@ Tuto1_EXTERNAL_OBJECTS =
 
 Tuto1: CMakeFiles/Tuto1.dir/src/tuto1.cpp.o
 Tuto1: CMakeFiles/Tuto1.dir/build.make
+Tuto1: /opt/homebrew/Cellar/raylib/5.0/lib/libraylib.dylib
 Tuto1: CMakeFiles/Tuto1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tuto1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tuto1.dir/link.txt --verbose=$(VERBOSE)

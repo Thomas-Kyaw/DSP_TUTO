@@ -125,6 +125,7 @@ TutorialSessions: CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o
 TutorialSessions: CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o
 TutorialSessions: CMakeFiles/TutorialSessions.dir/build.make
 TutorialSessions: /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib
+TutorialSessions: /opt/homebrew/Cellar/raylib/5.0/lib/libraylib.dylib
 TutorialSessions: /opt/homebrew/lib/libsfml-window.2.6.1.dylib
 TutorialSessions: /opt/homebrew/lib/libsfml-system.2.6.1.dylib
 TutorialSessions: CMakeFiles/TutorialSessions.dir/link.txt

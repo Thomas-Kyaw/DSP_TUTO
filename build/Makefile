@@ -529,6 +529,19 @@ Tuto1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuto1.dir/build.make CMakeFiles/Tuto1.dir/build
 .PHONY : Tuto1/fast
 
+#=============================================================================
+# Target rules for targets named Meowdes
+
+# Build rule for target.
+Meowdes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Meowdes
+.PHONY : Meowdes
+
+# fast build rule for target.
+Meowdes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/build
+.PHONY : Meowdes/fast
+
 src/CircleShape.o: src/CircleShape.cpp.o
 .PHONY : src/CircleShape.o
 
@@ -552,6 +565,198 @@ src/CircleShape.s: src/CircleShape.cpp.s
 src/CircleShape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessions.dir/build.make CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.s
 .PHONY : src/CircleShape.cpp.s
+
+src/Enemy.o: src/Enemy.cpp.o
+.PHONY : src/Enemy.o
+
+# target to build an object file
+src/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Enemy.cpp.o
+.PHONY : src/Enemy.cpp.o
+
+src/Enemy.i: src/Enemy.cpp.i
+.PHONY : src/Enemy.i
+
+# target to preprocess a source file
+src/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Enemy.cpp.i
+.PHONY : src/Enemy.cpp.i
+
+src/Enemy.s: src/Enemy.cpp.s
+.PHONY : src/Enemy.s
+
+# target to generate assembly for a file
+src/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Enemy.cpp.s
+.PHONY : src/Enemy.cpp.s
+
+src/Entity.o: src/Entity.cpp.o
+.PHONY : src/Entity.o
+
+# target to build an object file
+src/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Entity.cpp.o
+.PHONY : src/Entity.cpp.o
+
+src/Entity.i: src/Entity.cpp.i
+.PHONY : src/Entity.i
+
+# target to preprocess a source file
+src/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Entity.cpp.i
+.PHONY : src/Entity.cpp.i
+
+src/Entity.s: src/Entity.cpp.s
+.PHONY : src/Entity.s
+
+# target to generate assembly for a file
+src/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Entity.cpp.s
+.PHONY : src/Entity.cpp.s
+
+src/Food.o: src/Food.cpp.o
+.PHONY : src/Food.o
+
+# target to build an object file
+src/Food.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Food.cpp.o
+.PHONY : src/Food.cpp.o
+
+src/Food.i: src/Food.cpp.i
+.PHONY : src/Food.i
+
+# target to preprocess a source file
+src/Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Food.cpp.i
+.PHONY : src/Food.cpp.i
+
+src/Food.s: src/Food.cpp.s
+.PHONY : src/Food.s
+
+# target to generate assembly for a file
+src/Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Food.cpp.s
+.PHONY : src/Food.cpp.s
+
+src/Inventory.o: src/Inventory.cpp.o
+.PHONY : src/Inventory.o
+
+# target to build an object file
+src/Inventory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Inventory.cpp.o
+.PHONY : src/Inventory.cpp.o
+
+src/Inventory.i: src/Inventory.cpp.i
+.PHONY : src/Inventory.i
+
+# target to preprocess a source file
+src/Inventory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Inventory.cpp.i
+.PHONY : src/Inventory.cpp.i
+
+src/Inventory.s: src/Inventory.cpp.s
+.PHONY : src/Inventory.s
+
+# target to generate assembly for a file
+src/Inventory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Inventory.cpp.s
+.PHONY : src/Inventory.cpp.s
+
+src/Item.o: src/Item.cpp.o
+.PHONY : src/Item.o
+
+# target to build an object file
+src/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Item.cpp.o
+.PHONY : src/Item.cpp.o
+
+src/Item.i: src/Item.cpp.i
+.PHONY : src/Item.i
+
+# target to preprocess a source file
+src/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Item.cpp.i
+.PHONY : src/Item.cpp.i
+
+src/Item.s: src/Item.cpp.s
+.PHONY : src/Item.s
+
+# target to generate assembly for a file
+src/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Item.cpp.s
+.PHONY : src/Item.cpp.s
+
+src/Meowgolas.o: src/Meowgolas.cpp.o
+.PHONY : src/Meowgolas.o
+
+# target to build an object file
+src/Meowgolas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o
+.PHONY : src/Meowgolas.cpp.o
+
+src/Meowgolas.i: src/Meowgolas.cpp.i
+.PHONY : src/Meowgolas.i
+
+# target to preprocess a source file
+src/Meowgolas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.i
+.PHONY : src/Meowgolas.cpp.i
+
+src/Meowgolas.s: src/Meowgolas.cpp.s
+.PHONY : src/Meowgolas.s
+
+# target to generate assembly for a file
+src/Meowgolas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.s
+.PHONY : src/Meowgolas.cpp.s
+
+src/NPC.o: src/NPC.cpp.o
+.PHONY : src/NPC.o
+
+# target to build an object file
+src/NPC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/NPC.cpp.o
+.PHONY : src/NPC.cpp.o
+
+src/NPC.i: src/NPC.cpp.i
+.PHONY : src/NPC.i
+
+# target to preprocess a source file
+src/NPC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/NPC.cpp.i
+.PHONY : src/NPC.cpp.i
+
+src/NPC.s: src/NPC.cpp.s
+.PHONY : src/NPC.s
+
+# target to generate assembly for a file
+src/NPC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/NPC.cpp.s
+.PHONY : src/NPC.cpp.s
+
+src/Position.o: src/Position.cpp.o
+.PHONY : src/Position.o
+
+# target to build an object file
+src/Position.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Position.cpp.o
+.PHONY : src/Position.cpp.o
+
+src/Position.i: src/Position.cpp.i
+.PHONY : src/Position.i
+
+# target to preprocess a source file
+src/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Position.cpp.i
+.PHONY : src/Position.cpp.i
+
+src/Position.s: src/Position.cpp.s
+.PHONY : src/Position.s
+
+# target to generate assembly for a file
+src/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Position.cpp.s
+.PHONY : src/Position.cpp.s
 
 src/RectangleShape.o: src/RectangleShape.cpp.o
 .PHONY : src/RectangleShape.o
@@ -577,6 +782,30 @@ src/RectangleShape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessions.dir/build.make CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.s
 .PHONY : src/RectangleShape.cpp.s
 
+src/Room.o: src/Room.cpp.o
+.PHONY : src/Room.o
+
+# target to build an object file
+src/Room.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Room.cpp.o
+.PHONY : src/Room.cpp.o
+
+src/Room.i: src/Room.cpp.i
+.PHONY : src/Room.i
+
+# target to preprocess a source file
+src/Room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Room.cpp.i
+.PHONY : src/Room.cpp.i
+
+src/Room.s: src/Room.cpp.s
+.PHONY : src/Room.s
+
+# target to generate assembly for a file
+src/Room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Room.cpp.s
+.PHONY : src/Room.cpp.s
+
 src/Test_SFML_OOP.o: src/Test_SFML_OOP.cpp.o
 .PHONY : src/Test_SFML_OOP.o
 
@@ -600,6 +829,78 @@ src/Test_SFML_OOP.s: src/Test_SFML_OOP.cpp.s
 src/Test_SFML_OOP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessions.dir/build.make CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.s
 .PHONY : src/Test_SFML_OOP.cpp.s
+
+src/Top.o: src/Top.cpp.o
+.PHONY : src/Top.o
+
+# target to build an object file
+src/Top.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Top.cpp.o
+.PHONY : src/Top.cpp.o
+
+src/Top.i: src/Top.cpp.i
+.PHONY : src/Top.i
+
+# target to preprocess a source file
+src/Top.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Top.cpp.i
+.PHONY : src/Top.cpp.i
+
+src/Top.s: src/Top.cpp.s
+.PHONY : src/Top.s
+
+# target to generate assembly for a file
+src/Top.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Top.cpp.s
+.PHONY : src/Top.cpp.s
+
+src/Weapon.o: src/Weapon.cpp.o
+.PHONY : src/Weapon.o
+
+# target to build an object file
+src/Weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Weapon.cpp.o
+.PHONY : src/Weapon.cpp.o
+
+src/Weapon.i: src/Weapon.cpp.i
+.PHONY : src/Weapon.i
+
+# target to preprocess a source file
+src/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Weapon.cpp.i
+.PHONY : src/Weapon.cpp.i
+
+src/Weapon.s: src/Weapon.cpp.s
+.PHONY : src/Weapon.s
+
+# target to generate assembly for a file
+src/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Weapon.cpp.s
+.PHONY : src/Weapon.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/test1.o: src/test1.cpp.o
 .PHONY : src/test1.o
@@ -686,18 +987,55 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... Meowdes"
 	@echo "... Tuto1"
 	@echo "... TutorialSessionTest1"
 	@echo "... TutorialSessions"
 	@echo "... src/CircleShape.o"
 	@echo "... src/CircleShape.i"
 	@echo "... src/CircleShape.s"
+	@echo "... src/Enemy.o"
+	@echo "... src/Enemy.i"
+	@echo "... src/Enemy.s"
+	@echo "... src/Entity.o"
+	@echo "... src/Entity.i"
+	@echo "... src/Entity.s"
+	@echo "... src/Food.o"
+	@echo "... src/Food.i"
+	@echo "... src/Food.s"
+	@echo "... src/Inventory.o"
+	@echo "... src/Inventory.i"
+	@echo "... src/Inventory.s"
+	@echo "... src/Item.o"
+	@echo "... src/Item.i"
+	@echo "... src/Item.s"
+	@echo "... src/Meowgolas.o"
+	@echo "... src/Meowgolas.i"
+	@echo "... src/Meowgolas.s"
+	@echo "... src/NPC.o"
+	@echo "... src/NPC.i"
+	@echo "... src/NPC.s"
+	@echo "... src/Position.o"
+	@echo "... src/Position.i"
+	@echo "... src/Position.s"
 	@echo "... src/RectangleShape.o"
 	@echo "... src/RectangleShape.i"
 	@echo "... src/RectangleShape.s"
+	@echo "... src/Room.o"
+	@echo "... src/Room.i"
+	@echo "... src/Room.s"
 	@echo "... src/Test_SFML_OOP.o"
 	@echo "... src/Test_SFML_OOP.i"
 	@echo "... src/Test_SFML_OOP.s"
+	@echo "... src/Top.o"
+	@echo "... src/Top.i"
+	@echo "... src/Top.s"
+	@echo "... src/Weapon.o"
+	@echo "... src/Weapon.i"
+	@echo "... src/Weapon.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/test1.o"
 	@echo "... src/test1.i"
 	@echo "... src/test1.s"

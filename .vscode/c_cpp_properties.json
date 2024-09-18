@@ -5,7 +5,8 @@
       "includePath": [
         "${workspaceFolder}/include",
         "${workspaceFolder}/**",
-        "/opt/homebrew/Cellar/sfml/2.6.1/include" // Path to SFML headers
+        "/opt/homebrew/Cellar/sfml/2.6.1/include", // Path to SFML headers
+        "/opt/homebrew/Cellar/raylib/5.0/include"
       ],
       "compilerPath": "/usr/bin/clang++",
       "cStandard": "c11",

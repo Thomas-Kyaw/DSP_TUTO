@@ -28,6 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/Compiler/GNU.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/DartConfiguration.tcl.in"
+  "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+  "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageMessage.cmake"
+  "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPkgConfig.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
@@ -41,6 +44,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake"
   "/opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
   "/opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake"
+  "/opt/homebrew/lib/cmake/raylib/raylib-config-version.cmake"
+  "/opt/homebrew/lib/cmake/raylib/raylib-config.cmake"
   )
 
 # The corresponding makefile is:
@@ -88,4 +93,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TutorialSessions.dir/DependInfo.cmake"
   "CMakeFiles/TutorialSessionTest1.dir/DependInfo.cmake"
   "CMakeFiles/Tuto1.dir/DependInfo.cmake"
+  "CMakeFiles/Meowdes.dir/DependInfo.cmake"
   )

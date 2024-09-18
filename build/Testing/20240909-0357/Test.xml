@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20240909-0357-Experimental"
+	Name="Aungs-MacBook-Air.local"
+	Generator="ctest-3.28.1"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+	CompilerVersion="15.0.0.15000309"
+	OSName="macOS"
+	Hostname="Aungs-MacBook-Air.local"
+	OSRelease="14.6.1"
+	OSVersion="23G93"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Sep 09 12:03 +08</StartDateTime>
+		<StartTestTime>1725854593</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 09 12:03 +08</EndDateTime>
+		<EndTestTime>1725854593</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

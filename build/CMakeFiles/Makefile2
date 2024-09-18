@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build
 all: CMakeFiles/TutorialSessions.dir/all
 all: CMakeFiles/TutorialSessionTest1.dir/all
 all: CMakeFiles/Tuto1.dir/all
+all: CMakeFiles/Meowdes.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,6 +105,7 @@ clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/TutorialSessions.dir/clean
 clean: CMakeFiles/TutorialSessionTest1.dir/clean
 clean: CMakeFiles/Tuto1.dir/clean
+clean: CMakeFiles/Meowdes.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -841,7 +843,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/TutorialSessions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessions.dir/build.make CMakeFiles/TutorialSessions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessions.dir/build.make CMakeFiles/TutorialSessions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=5,6,7,8 "Built target TutorialSessions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=18,19,20,21 "Built target TutorialSessions"
 .PHONY : CMakeFiles/TutorialSessions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -867,7 +869,7 @@ CMakeFiles/TutorialSessions.dir/clean:
 CMakeFiles/TutorialSessionTest1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessionTest1.dir/build.make CMakeFiles/TutorialSessionTest1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TutorialSessionTest1.dir/build.make CMakeFiles/TutorialSessionTest1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=3,4 "Built target TutorialSessionTest1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=16,17 "Built target TutorialSessionTest1"
 .PHONY : CMakeFiles/TutorialSessionTest1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -893,7 +895,7 @@ CMakeFiles/TutorialSessionTest1.dir/clean:
 CMakeFiles/Tuto1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuto1.dir/build.make CMakeFiles/Tuto1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuto1.dir/build.make CMakeFiles/Tuto1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=1,2 "Built target Tuto1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=14,15 "Built target Tuto1"
 .PHONY : CMakeFiles/Tuto1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -911,6 +913,32 @@ Tuto1: CMakeFiles/Tuto1.dir/rule
 CMakeFiles/Tuto1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tuto1.dir/build.make CMakeFiles/Tuto1.dir/clean
 .PHONY : CMakeFiles/Tuto1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Meowdes.dir
+
+# All Build rule for target.
+CMakeFiles/Meowdes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Meowdes"
+.PHONY : CMakeFiles/Meowdes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Meowdes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Meowdes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build/CMakeFiles 0
+.PHONY : CMakeFiles/Meowdes.dir/rule
+
+# Convenience name for target.
+Meowdes: CMakeFiles/Meowdes.dir/rule
+.PHONY : Meowdes
+
+# clean rule for target.
+CMakeFiles/Meowdes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/clean
+.PHONY : CMakeFiles/Meowdes.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

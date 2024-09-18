@@ -185,6 +185,39 @@
 		{
 			"isExternal" : true,
 			"path" : "/opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/raylib/raylib-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/raylib/raylib-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
