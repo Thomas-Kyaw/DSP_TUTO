@@ -1,47 +1,19 @@
 #include "Room.h"
 #include <iostream>
 
-// Constructor
-Room::Room(std::string description)
-    : fDescription(description), fIsCleared(false) {
+Room::Room(const std::string& desc) : description(desc), isCleared(false) {
+    // Initialize exits to null
     for (int i = 0; i < 4; ++i) {
-        exits[i] = nullptr;  // Initialize exits to null
+        exits[i] = nullptr;
     }
 }
 
-// Set room description
-void Room::SetDescription(const std::string& description) {
-    fDescription = description;
-}
-
-// Get room description
-std::string Room::GetDescription() const {
-    return fDescription;
-}
-
-// Add enemy to room
-void Room::AddEnemy(Enemy* enemy) {
-    fEnemies.push_back(enemy);
-}
-
-// Add NPC to room
-void Room::AddNPC(NPC* npc) {
-    fNPCs.push_back(npc);
-}
-
-// Add item to room
-void Room::AddItem(Item* item) {
-    fItems.push_back(item);
-}
-
-// Set exit room (0 = NORTH, 1 = SOUTH, 2 = EAST, 3 = WEST)
 void Room::SetExit(int direction, Room* room) {
     if (direction >= 0 && direction < 4) {
         exits[direction] = room;
     }
 }
 
-// Get exit room
 Room* Room::GetExit(int direction) const {
     if (direction >= 0 && direction < 4) {
         return exits[direction];
@@ -49,9 +21,28 @@ Room* Room::GetExit(int direction) const {
     return nullptr;
 }
 
-// Check if room is cleared
-bool Room::IsCleared() const {
-    return fIsCleared;
+void Room::AddEnemy(Enemy* enemy) {
+    fEnemies.push_back(enemy);
+}
+
+void Room::AddNPC(NPC* npc) {
+    fNPCs.push_back(npc);
+}
+
+void Room::AddItem(Item* item) {
+    fItems.push_back(item);
+}
+
+void Room::RemoveEnemy(Enemy* enemy) {
+    fEnemies.erase(std::remove(fEnemies.begin(), fEnemies.end(), enemy), fEnemies.end());
+}
+
+bool Room::CheckRoomClear() const {
+    return fEnemies.empty();
+}
+
+std::string Room::GetDescription() const {
+    return description;
 }
 
 // Destructor

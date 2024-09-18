@@ -7564,7 +7564,6 @@ CMakeFiles/Meowdes.dir/src/Room.cpp.o: /Users/aungkhantkyaw/Documents/DSP_COS300
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Directions.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Enemy.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Entity.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Item.h \
@@ -10079,7 +10078,7 @@ CMakeFiles/Meowdes.dir/src/main.cpp.o: /Users/aungkhantkyaw/Documents/DSP_COS300
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Directions.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Enemy.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Entity.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Game.h \
+  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Food.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Inventory.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Item.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Meowgolas.h \

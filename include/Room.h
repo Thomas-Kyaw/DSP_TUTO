@@ -6,31 +6,31 @@
 #include "Enemy.h"
 #include "NPC.h"
 #include "Item.h"
+#include "Directions.h"
 
 class Room {
 private:
-    std::string fDescription;  // Description of the room
-    bool fIsCleared;           // Indicates if the room is cleared
-    std::vector<Enemy*> fEnemies;  // Vector of enemies in the room
-    std::vector<NPC*> fNPCs;       // Vector of NPCs in the room
-    std::vector<Item*> fItems;     // Vector of items in the room
-    Room* exits[4];               // Exits pointing to 4 different rooms (NORTH, SOUTH, EAST, WEST)
+    std::string description;
+    std::vector<Enemy*> fEnemies;
+    std::vector<Item*> fItems;
+    std::vector<NPC*> fNPCs;
+    Room* exits[4];  // Exits to other rooms (NORTH, SOUTH, EAST, WEST)
+    bool isCleared;
 
 public:
-    Room(std::string description);  // Constructor
-
-    void SetDescription(const std::string& description);  // Set description
-    std::string GetDescription() const;  // Get description
-
-    void AddEnemy(Enemy* enemy);  // Add an enemy to the room
-    void AddNPC(NPC* npc);        // Add an NPC to the room
-    void AddItem(Item* item);     // Add an item to the room
-
-    void SetExit(int direction, Room* room);  // Set exit for room
-    Room* GetExit(int direction) const;       // Get exit from room
-
-    bool IsCleared() const;  // Check if room is cleared
+    // Constructor
+    Room(const std::string& desc);
     ~Room();  // Destructor
+
+    // Room management
+    void SetExit(int direction, Room* room);
+    Room* GetExit(int direction) const;
+    void AddEnemy(Enemy* enemy);
+    void AddNPC(NPC* npc);
+    void AddItem(Item* item);
+    void RemoveEnemy(Enemy* enemy);
+    bool CheckRoomClear() const;
+    std::string GetDescription() const;
 };
 
 #endif // ROOM_H
