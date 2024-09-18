@@ -4,30 +4,31 @@
 #include "Meowgolas.h"
 
 int main() {
-    // Create a Meowgolas (derived from Entity)
-    Meowgolas player(1, 100, 100, 20, Position(5, 5));
+    // Create Ryu and Ken with identical stats
+    Entity Ryu(1, 100, 100, 30, Position(5, 5));
+    Entity Ken(2, 100, 100, 30, Position(7, 7));
     
-    // Display initial player stats
-    std::cout << "Initial Player Stats:" << std::endl;
-    std::cout << player;
+    // Display initial stats for both entities
+    std::cout << "Ryu's Stats:" << std::endl;
+    std::cout << Ryu;
+    std::cout << "\nKen's Stats:" << std::endl;
+    std::cout << Ken;
 
-    // Test Damage command
-    std::istringstream damageCommand("Damage 30");
-    damageCommand >> player;
-    std::cout << "\nAfter Damage Command (30 points):" << std::endl;
-    std::cout << player;
+    // Ryu attacks Ken
+    std::cout << "\nRyu attacks Ken!" << std::endl;
+    Ryu >> Ken;
 
-    // Test Heal command
-    std::istringstream healCommand("Heal 20");
-    healCommand >> player;
-    std::cout << "\nAfter Heal Command (20 points):" << std::endl;
-    std::cout << player;
+    // Display stats after the attack
+    std::cout << "\nKen's Stats after attack:" << std::endl;
+    std::cout << Ken;
 
-    // Test Move command
-    std::istringstream moveCommand("Move 3 4");
-    moveCommand >> player;
-    std::cout << "\nAfter Move Command (+3, +4):" << std::endl;
-    std::cout << player;
+    // Ken attacks Ryu
+    std::cout << "\nKen attacks Ryu!" << std::endl;
+    Ken >> Ryu;
+
+    // Display stats after Ken's counterattack
+    std::cout << "\nRyu's Stats after counterattack:" << std::endl;
+    std::cout << Ryu;
 
     return 0;
 }

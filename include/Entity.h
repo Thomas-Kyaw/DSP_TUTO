@@ -2,6 +2,7 @@
 #define ENTITY_H
 
 #include <iostream>
+#include <string>
 #include "Position.h"
 using namespace std;
 
@@ -39,14 +40,14 @@ public:
     std::string GetMessage() const;
     void SetMessage(const std::string& message);
 
-    // New PrintStat function
+    // Print the entity's statistics
     std::string PrintStat() const;
 
     // Overloading the << operator (for printing)
     friend std::ostream& operator<<(std::ostream& os, const Entity& entity);
 
-    // Overloading the >> operator (for receiving commands and applying changes)
-    friend std::istream& operator>>(std::istream& is, Entity& entity);
+    // Overloading the >> operator (for entity vs entity interaction)
+    friend Entity& operator>>(Entity& attacker, Entity& defender);
 
     // Destructor
     virtual ~Entity();

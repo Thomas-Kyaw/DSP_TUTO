@@ -58,36 +58,28 @@ std::ostream& operator<<(std::ostream& os, const Entity& entity) {
     return os;
 }
 
-// Overload the >> operator to parse commands and apply the appropriate changes
-std::istream& operator>>(std::istream& is, Entity& entity) {
-    std::string command;
-    is >> command;
+// Overload the >> operator for one entity attacking another
+Entity& operator>>(Entity& attacker, Entity& defender) {
+    // Reduce the defender's HP by the attacker's attack value
+    defender.fCurrentHP -= attacker.GetAttack();
+    
+    // Set the message to reflect the attack
+    attacker.fMessage = "Attacked " + std::to_string(defender.GetID());
+    defender.fMessage = "Defended against " + std::to_string(attacker.GetID());
 
-    if (command == "Damage") {
-        int value;
-        is >> value;
-        entity.fCurrentHP -= value;
-        if (entity.fCurrentHP < 0) entity.fCurrentHP = 0;
-        entity.fMessage = "Damage " + std::to_string(value);
+    // Print attack result
+    std::cout << attacker.fMessage << ": -" << attacker.GetAttack() << " HP to Entity " << defender.GetID() << std::endl;
+    std::cout << "Entity " << defender.GetID() << " HP: " << defender.fCurrentHP << std::endl;
+
+    // If either attacker or defender reaches 0 or below HP, end the game
+    if (defender.fCurrentHP <= 0) {
+        std::cout << "Entity " << defender.GetID() << " has been defeated. Game over." << std::endl;
     } 
-    else if (command == "Heal") {
-        int value;
-        is >> value;
-        entity.fCurrentHP += value;
-        if (entity.fCurrentHP > entity.fMaxHP) entity.fCurrentHP = entity.fMaxHP;
-        entity.fMessage = "Heal " + std::to_string(value);
-    } 
-    else if (command == "Move") {
-        int xOffset, yOffset;
-        is >> xOffset >> yOffset;
-        entity.fPosition.move(xOffset, yOffset);
-        entity.fMessage = "Move " + std::to_string(xOffset) + " " + std::to_string(yOffset);
-    } 
-    else {
-        std::cerr << "Unknown command: " << command << std::endl;
+    if (attacker.fCurrentHP <= 0) {
+        std::cout << "Entity " << attacker.GetID() << " has been defeated. Game over." << std::endl;
     }
 
-    return is;
+    return attacker;
 }
 
 // Destructor
