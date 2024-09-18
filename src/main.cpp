@@ -13,18 +13,23 @@ int main() {
     Meowgolas player(1, 100, 100, 20, Position(5, 5));
     std::cout << "Meowgolas created with ID: " << player.GetID() << " at position (" 
               << player.GetPosition().x << ", " << player.GetPosition().y << ")" << std::endl;
+    std::cout << "Meowgolas Stats: Max HP: " << player.GetMaxHP() 
+              << ", Current HP: " << player.GetCurrentHP() 
+              << ", Attack: " << player.GetAttack() << std::endl;
 
     // Create an Enemy
     Enemy enemy(2, 50, 50, 10, Position(3, 3), "Orc");
-    std::cout << "Enemy created with ID: " << enemy.GetID() << " at position (" 
+    std::cout << "\nEnemy created with ID: " << enemy.GetID() << " at position (" 
               << enemy.GetPosition().x << ", " << enemy.GetPosition().y << ")" << std::endl;
+    std::cout << "Enemy Stats: Max HP: " << enemy.GetMaxHP() 
+              << ", Current HP: " << enemy.GetCurrentHP() 
+              << ", Attack: " << enemy.GetAttack() << std::endl;
 
     // Create an NPC
     NPC npc(3, 80, 80, 0, Position(10, 10), "Welcome to the world!");
-    std::cout << "NPC created with ID: " << npc.GetID() << " at position (" 
+    std::cout << "\nNPC created with ID: " << npc.GetID() << " at position (" 
               << npc.GetPosition().x << ", " << npc.GetPosition().y << ")" << std::endl;
-
-    // Interact with the NPC
+    std::cout << "NPC says: ";
     npc.Interact();
 
     // Create items for Meowgolas
@@ -33,13 +38,17 @@ int main() {
     Food apple("Apple", 10);
 
     // Equip Meowgolas with items
+    std::cout << "\nEquipping Meowgolas with items..." << std::endl;
     player.EquipWeapon(&sword);
     player.EquipTop(&armor);
     std::cout << "Meowgolas is now equipped with a weapon and armor." << std::endl;
+    std::cout << "Weapon: " << sword.GetName() << " (Damage: " << sword.GetDamage() << ")" << std::endl;
+    std::cout << "Top: " << armor.GetName() << " (Defense: " << armor.GetDefense() << ")" << std::endl;
 
     // Use food item
-    std::cout << "Meowgolas uses a food item: ";
+    std::cout << "\nMeowgolas uses a food item: ";
     player.UseItem(&apple);
+    std::cout << "Meowgolas Stats after using item: Current HP: " << player.GetCurrentHP() << std::endl;
 
     // Create Rooms
     Room* room1 = new Room("The Entrance");
@@ -59,13 +68,13 @@ int main() {
     room3->AddItem(&apple);
 
     // Simulate attack from Meowgolas to enemy
-    std::cout << "Meowgolas attacks the enemy:" << std::endl;
+    std::cout << "\nMeowgolas attacks the enemy:" << std::endl;
     player.Attack(enemy);
     std::cout << "Enemy HP after attack: " << enemy.GetCurrentHP() << std::endl;
 
     // Test room navigation
     Room* currentRoom = room1;
-    std::cout << "You are in: " << currentRoom->GetDescription() << std::endl;
+    std::cout << "\nYou are in: " << currentRoom->GetDescription() << std::endl;
 
     // Move north to room2
     currentRoom = currentRoom->GetExit(NORTH);

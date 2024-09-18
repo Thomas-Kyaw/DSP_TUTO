@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TutorialSessionTest1"
+			"path" : "TutorialSessions"
 		}
 	],
 	"backtrace" : 1,
@@ -30,13 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 67,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -47,13 +53,13 @@
 			},
 			{
 				"file" : 1,
-				"parent" : 3
+				"parent" : 4
 			},
 			{
 				"command" : 2,
 				"file" : 1,
 				"line" : 63,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 4,
@@ -90,24 +96,29 @@
 					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"fragment" : "-I/opt/homebrew/Cellar/raylib/5.0/include"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"path" : "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"path" : "/opt/homebrew/Cellar/sfml/2.6.1/include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/Cellar/raylib/5.0/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
 				}
 			],
 			"language" : "CXX",
@@ -115,17 +126,19 @@
 			{
 				"backtraces" : 
 				[
-					9
+					10
 				],
 				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
-	"id" : "TutorialSessionTest1::@6890427a1f51a3e7e1df",
+	"id" : "TutorialSessions::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -139,20 +152,39 @@
 				"role" : "flags"
 			},
 			{
+				"fragment" : "-Wl,-rpath,/opt/homebrew/lib",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/lib/libsfml-graphics.2.6.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "/opt/homebrew/Cellar/raylib/5.0/lib/libraylib.dylib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/lib/libsfml-window.2.6.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/lib/libsfml-system.2.6.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
 				"fragment" : "-L/opt/homebrew/Cellar/raylib/5.0/lib -lraylib",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "TutorialSessionTest1",
-	"nameOnDisk" : "TutorialSessionTest1",
+	"name" : "TutorialSessions",
+	"nameOnDisk" : "TutorialSessions",
 	"paths" : 
 	{
 		"build" : ".",
@@ -164,7 +196,9 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
@@ -173,7 +207,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/test1.cpp",
+			"path" : "src/Test_SFML_OOP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/CircleShape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RectangleShape.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

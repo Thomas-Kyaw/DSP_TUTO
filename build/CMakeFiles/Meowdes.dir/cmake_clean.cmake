@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Meowdes.dir/src/Entity.cpp.o.d"
   "CMakeFiles/Meowdes.dir/src/Food.cpp.o"
   "CMakeFiles/Meowdes.dir/src/Food.cpp.o.d"
+  "CMakeFiles/Meowdes.dir/src/Game.cpp.o"
+  "CMakeFiles/Meowdes.dir/src/Game.cpp.o.d"
   "CMakeFiles/Meowdes.dir/src/Inventory.cpp.o"
   "CMakeFiles/Meowdes.dir/src/Inventory.cpp.o.d"
   "CMakeFiles/Meowdes.dir/src/Item.cpp.o"

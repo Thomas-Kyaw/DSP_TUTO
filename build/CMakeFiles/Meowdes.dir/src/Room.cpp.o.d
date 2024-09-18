@@ -854,4 +854,5 @@ CMakeFiles/Meowdes.dir/src/Room.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/bitset \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Position.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/NPC.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Item.h
+  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Item.h \
+  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Directions.h

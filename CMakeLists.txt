@@ -46,7 +46,8 @@ add_executable(
   src/Food.cpp 
   src/Item.cpp 
   src/Position.cpp 
-  src/Inventory.cpp)
+  src/Inventory.cpp
+  src/Game.cpp)
 
 
 # Link SFML to the TutorialSessions target

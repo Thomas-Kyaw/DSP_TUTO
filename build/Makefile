@@ -638,6 +638,30 @@ src/Food.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Food.cpp.s
 .PHONY : src/Food.cpp.s
 
+src/Game.o: src/Game.cpp.o
+.PHONY : src/Game.o
+
+# target to build an object file
+src/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
+
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Meowdes.dir/build.make CMakeFiles/Meowdes.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
 src/Inventory.o: src/Inventory.cpp.o
 .PHONY : src/Inventory.o
 
@@ -1003,6 +1027,9 @@ help:
 	@echo "... src/Food.o"
 	@echo "... src/Food.i"
 	@echo "... src/Food.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
 	@echo "... src/Inventory.o"
 	@echo "... src/Inventory.i"
 	@echo "... src/Inventory.s"

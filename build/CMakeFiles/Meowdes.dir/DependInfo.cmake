@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Enemy.cpp" "CMakeFiles/Meowdes.dir/src/Enemy.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Enemy.cpp.o.d"
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Entity.cpp" "CMakeFiles/Meowdes.dir/src/Entity.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Entity.cpp.o.d"
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Food.cpp" "CMakeFiles/Meowdes.dir/src/Food.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Food.cpp.o.d"
+  "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Game.cpp" "CMakeFiles/Meowdes.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Game.cpp.o.d"
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Inventory.cpp" "CMakeFiles/Meowdes.dir/src/Inventory.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Inventory.cpp.o.d"
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Item.cpp" "CMakeFiles/Meowdes.dir/src/Item.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Item.cpp.o.d"
   "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Meowgolas.cpp" "CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o" "gcc" "CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o.d"
