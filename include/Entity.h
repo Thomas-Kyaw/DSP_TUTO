@@ -12,6 +12,7 @@ protected:
     int fMaxHP;          // Maximum health points
     int fCurrentHP;      // Current health points
     int fAttack;         // Attack damage
+    std::string fMessage;  // New field to store the last message
 
 public:
     // Constructors
@@ -34,6 +35,18 @@ public:
 
     // Attack another entity
     virtual void Attack(Entity& entity);
+
+    std::string GetMessage() const;
+    void SetMessage(const std::string& message);
+
+    // New PrintStat function
+    std::string PrintStat() const;
+
+    // Overloading the << operator (friend function)
+    friend std::ostream& operator<<(std::ostream& os, const Entity& entity);
+
+    // Overloading the >> operator (friend function)
+    friend std::istream& operator>>(std::istream& is, Entity& entity);
 
     // Destructor
     virtual ~Entity();

@@ -823,9 +823,9 @@ CMakeFiles/Meowdes.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstdarg \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Meowgolas.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Entity.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Position.h \
+  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Meowgolas.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Weapon.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Item.h \
   /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Top.h \
@@ -855,9 +855,4 @@ CMakeFiles/Meowdes.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/temp_value.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Enemy.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/NPC.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Room.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Food.h \
-  /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include/Directions.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__split_buffer
