@@ -48,6 +48,9 @@ add_executable(
   src/Position.cpp 
   src/Inventory.cpp)
 
+  add_executable(
+    TestTuto
+    src/tuto-3.cpp)
 
 # Link SFML to the TutorialSessions target
 target_link_libraries( 

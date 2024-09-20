@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake" "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial"
-MakeCommand: /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake" "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial"
+MakeCommand: /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 15.0.0.15000309
+CompilerVersion: 16.0.0.16000026
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -94,6 +94,9 @@ TimeOut: 1500
 # During parallel testing CTest will not start a new test if doing
 # so would cause the system load to exceed this value.
 TestLoad: 
+
+TLSVerify: 
+TLSVersion: 
 
 UseLaunchers: 
 CurlOptions: 

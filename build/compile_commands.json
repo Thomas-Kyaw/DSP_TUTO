@@ -1,104 +1,110 @@
 [
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Test_SFML_OOP.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Test_SFML_OOP.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Test_SFML_OOP.cpp",
   "output": "CMakeFiles/TutorialSessions.dir/src/Test_SFML_OOP.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/CircleShape.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/CircleShape.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/CircleShape.cpp",
   "output": "CMakeFiles/TutorialSessions.dir/src/CircleShape.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/RectangleShape.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/RectangleShape.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/RectangleShape.cpp",
   "output": "CMakeFiles/TutorialSessions.dir/src/RectangleShape.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/test1.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/test1.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/test1.cpp",
   "output": "CMakeFiles/TutorialSessionTest1.dir/src/test1.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/Tuto1.dir/src/tuto1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto1.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -isystem /opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -I/opt/homebrew/Cellar/raylib/5.0/include -o CMakeFiles/Tuto1.dir/src/tuto1.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto1.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto1.cpp",
   "output": "CMakeFiles/Tuto1.dir/src/tuto1.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/main.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/main.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/main.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/main.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/main.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Entity.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Entity.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Entity.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Entity.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Entity.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Entity.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Meowgolas.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Meowgolas.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Meowgolas.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Meowgolas.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/NPC.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/NPC.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/NPC.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/NPC.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/NPC.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/NPC.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Enemy.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Enemy.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Enemy.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Enemy.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Enemy.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Enemy.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Room.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Room.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Room.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Room.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Room.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Room.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Weapon.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Weapon.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Weapon.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Weapon.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Weapon.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Weapon.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Top.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Top.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Top.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Top.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Top.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Top.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Food.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Food.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Food.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Food.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Food.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Food.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Item.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Item.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Item.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Item.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Item.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Item.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Position.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Position.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Position.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Position.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Position.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Position.cpp.o"
 },
 {
   "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/Meowdes.dir/src/Inventory.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Inventory.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/Meowdes.dir/src/Inventory.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Inventory.cpp",
   "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/Inventory.cpp",
   "output": "CMakeFiles/Meowdes.dir/src/Inventory.cpp.o"
+},
+{
+  "directory": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/include -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/raylib/5.0/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/TestTuto.dir/src/tuto-3.cpp.o -c /Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto-3.cpp",
+  "file": "/Users/aungkhantkyaw/Documents/DSP_COS30008/Tutorial/src/tuto-3.cpp",
+  "output": "CMakeFiles/TestTuto.dir/src/tuto-3.cpp.o"
 }
 ]
