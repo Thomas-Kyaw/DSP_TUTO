@@ -1,5 +1,11 @@
 #include<iostream>
 
+void printArray(int* Array, int size)
+{
+  for(int i = 0;i < size;i++)
+      std::cout<< Array[i] << "\n";
+}
+
 int main()
 {
   int* ptr;
@@ -14,7 +20,6 @@ int main()
   ptr = fArray;
   std::cout << ptr[9] << "\n";
 
-  std::cout << fArray+2 << "\n";
-  std::cout << ptr+2 << "\n";
+  printArray(fArray, 10);
   return 0;
 }
